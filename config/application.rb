@@ -27,5 +27,9 @@ module CodeBlocks
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    # config.generators do |g|
+    #   g.factory_girl dir: 'custom/dir/for/factories'
+    # end
   end
 end
